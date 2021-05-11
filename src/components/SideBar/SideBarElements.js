@@ -38,18 +38,18 @@ export const CloseIcon = styled(FaTimes)`
 
 export const SideBarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71
+    background: #01bf71;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010;
     font-size: 16px;
     outline: none;
-    border: none:
+    border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
-    &.hover {
+    &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
@@ -82,10 +82,9 @@ export const SideBarLink = styled(LinkS)`
     color: #fff;
     cursor: pointer;
 
-    &.hover {
+    &:hover {
         color: #01bf71;
-        transition: 0.2 ease-in-out;
-
+        transition: all 0.2s ease-in-out;
     }
 `
 

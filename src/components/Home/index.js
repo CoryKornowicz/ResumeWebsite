@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavBar } from '../NavBar';
 import { SideBar } from '../SideBar'
+import { AboutPage } from "./Pages/AboutPage"
 
 export const Home = () => {
 
@@ -14,6 +15,7 @@ export const Home = () => {
         <div>
             <SideBar isOpen={isOpen} toggle={toggle} />
             <NavBar isOpen={isOpen} toggle={toggle} />
+            <AboutPage />
        </div>
     )
 }

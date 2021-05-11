@@ -9,9 +9,9 @@ export const SideBar = ({isOpen, toggle}) => {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink to='about'>About Me</SideBarLink>
-                    <SideBarLink to='discovery'>Discovery and Projects</SideBarLink>
-                    <SideBarLink to='research'>Research</SideBarLink>
+                    <SideBarLink to='about' onClick={toggle}>About Me</SideBarLink>
+                    <SideBarLink to='discovery' onClick={toggle}>Discovery and Projects</SideBarLink>
+                    <SideBarLink to='research' onClick={toggle}>Research</SideBarLink>
                 </SideBarMenu>
                 <SideBtnWrap>
                     <SideBarRoute to='contact'>Contact Me</SideBarRoute>
