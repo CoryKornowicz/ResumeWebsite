@@ -6,9 +6,9 @@ import {Link as LinkR} from 'react-router-dom';
 export const SideBarContainer = styled.aside`
     position: fixed;
     z-position: 999;
-    wdith: 100%;
+    width: 100%;
     height: 100%;
-    background: #0d0d0d
+    background: #0d0d0d;
     display: grid;
     align-items: center;
     left: 0;
@@ -32,6 +32,7 @@ export const Icon = styled.div`
 
 export const CloseIcon = styled(FaTimes)`
     color: #fff;
+    background: #000;
 `
 
 

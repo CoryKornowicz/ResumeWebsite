@@ -1,12 +1,12 @@
 import { Nav as NavR, NavBarContainer, NavBarLogo, MobileIcon, NavMenu, NavItem, NavLinks } from "./NavBarElements"
 import {FaBars} from 'react-icons/fa'
 
-export const NavBar = () => {
+export const NavBar = ({isOpen, toggle}) => {
     return (
         <NavR>
             <NavBarContainer>
                 <NavBarLogo to="/" >Cory Kornowicz</NavBarLogo>
-                <MobileIcon>
+                <MobileIcon isOpen={isOpen} onClick={toggle}>
                     <FaBars/>
                 </MobileIcon>
                 <NavMenu>

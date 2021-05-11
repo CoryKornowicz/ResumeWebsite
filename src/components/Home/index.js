@@ -13,7 +13,7 @@ export const Home = () => {
     return (
         <div>
             <SideBar isOpen={isOpen} toggle={toggle} />
-            <NavBar toggle={toggle}/>
+            <NavBar isOpen={isOpen} toggle={toggle} />
        </div>
     )
 }
